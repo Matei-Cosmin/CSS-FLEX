@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;   
+}
+h2 {
+    text-align: center;
+    color: lightslategray;
+}
+.ceasuri {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ text-align: center;
+
+}
+.ceas {
+    height: 350px;
+    background-color: white;
+    border: lightgray 1px solid;
+    width: 300px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px lightgray;
+}
+.image {
+    width: 220px;
+    height: 200px;
+}
+.image2 {
+    width: 300px;
+    height: 250px;
+}
+button {
+    border-radius: 4px;
+    color: lightslategray;
+    border: 1px solid lightslategray;
+    background-color: white;
+    width: 150px;
+    font-size: 15px;
+    height: 38px;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+}
